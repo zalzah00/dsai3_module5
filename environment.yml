@@ -1,0 +1,26 @@
+name: genai_local
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - pip
+  - pip:
+    - langchain
+    - langchain-community
+    - langchain-google-genai
+    - langgraph
+    - chromadb
+    - pypdf
+    - groq
+    - gradio
+    - python-telegram-bot
+    - python-dotenv
+    - huggingface_hub
+    - transformers
+    - diffusers
+    - accelerate
+    - torch
+    - torchvision
+    - pysqlite3-binary

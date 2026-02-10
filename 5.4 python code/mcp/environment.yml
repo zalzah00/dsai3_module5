@@ -1,0 +1,17 @@
+name: mcp-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - langgraph==0.6.6
+      - langchain==0.3.27
+      - mcp==1.13.1
+      - langchain-mcp-adapters==0.1.9
+      - langchain-google-genai==2.1.10
+      - anyio>=4.5
+      - httpx>=0.28.1
+      - sse-starlette>=3.0.2
+      - uvicorn>=0.35.0
