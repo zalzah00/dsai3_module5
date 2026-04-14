@@ -24,3 +24,7 @@ dependencies:
     - torch
     - torchvision
     - pysqlite3-binary
+    - google-generativeai
+    - llama-cpp-python
+    - sentence-transformers
+    - numpy
